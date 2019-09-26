@@ -1,0 +1,17 @@
+.container {
+  background-color: pink;
+  text-align: center;
+}
+
+[class*="col-"]{
+  border: 1px solid #000000;
+  height: 150px;
+  line-height: 150px;
+  padding: 5px;
+}
+
+.row > [class*="col-"] > [class*="col-"] {
+  background-color: red;
+  height: 140px;
+  border: 1px solid white;
+}
